@@ -9,7 +9,7 @@ const client = new Snoowrap({
     password: '2Pizzas>one!'
 });
 
-const subNames = ["Islam","Izlam","MuslimLounge","Hijabis","Muslim","Converts"]
+const subNames = ["Islam","Izlam","MuslimLounge","Hijabis","Muslim","Converts","testingground4bots"]
 // reddits api doesn't use millis
 const BOT_START = Date.now() / 1000;
 
