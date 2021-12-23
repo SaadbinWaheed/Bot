@@ -25,11 +25,11 @@ comments.on('item', (item) => {
     if(item.created_utc < BOT_START) return;
     const body = item.body.toString().toLowerCase();
     if(
-    ( item.author.name.toString()!=="inshaAllah_bot" && 
+    ( item.author.name.toString()!=="inshaAllah_bot" && (
     body.includes("insha allah") 
     ||body.includes("inshaallah" 
     ||body.includes("inshallah")
-    )
+    ))
     )){
         console.log(item);
     
